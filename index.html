@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namrata Manjunath Naik - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">(◔◡◔)</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">NAMRATA MANJUNATH NAIK</h1>
+                <h2 class="hero-title">WEB DEVELOPER | AI ENTHUSIAST</h2>
+                <div class="hero-contact">
+                    <p><i class="fas fa-phone"></i> +91 8660321186</p>
+                    <p><i class="fas fa-envelope"></i> nnnaik22024116@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Nammu-02" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/namrata-manjunath-naik-b95363281" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/nammu-naik" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:nnnaik22024116@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <button class="social-link" data-aos="fade-up" data-aos-delay="800" onclick="downloadResume()">
+                       <b class="fas fa-download" style="color: #ccc;"></b>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p class="about-text">
+                    Aspiring Java Developer with a solid foundation in object-oriented programming and a focus on backend development. 
+                    Committed to creating clean and efficient applications while integrating AI technologies into practical solutions. 
+                    Actively pursuing entry-level opportunities to leverage skills and contribute to innovative software projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-card">
+                <div class="experience-item">
+                    <h3>Java Developer Intern | ShadowFox</h3>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Completed One month Virtual Internship at ShadowFox as a Java Developer</li>
+                            <li>Ensured timely completion of tasks through effective time management</li>
+                            <li>Executed daily responsibilities with precision and efficiency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Bachelor of Science in Computer Science and Engineering</h3>
+                    <p class="institution">Bangalore Technological Institute Bengaluru-560035</p>
+                    <p class="duration">Dec 2022 - Jun 2026</p>
+                </div>
+                <div class="education-card">
+                    <h3>PUC-PCMB - 85%</h3>
+                    <p class="institution">Gokhale Centenary PU College, Ankola, Uttarakannada-581314</p>
+                    <p class="duration">Aug 2020 - Jun 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Pharmacy Management System</h3>
+                    <p class="project-duration">Nov 2024 - Jan 2025</p>
+                    <p class="project-description">
+                        Full-stack web app with Django, HTML, CSS, Bootstrap. Features: patient registration, 
+                        appointment scheduling, employee tracking, inventory control, data analysis.
+                    </p>
+                    <a href="#" class="btn-project" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Real-Time Malicious URL & Inappropriate Content Blocking System</h3>
+                    <p class="project-description">
+                        AI/ML-powered solution for URL classification. Trained on 1000+ URLs. 
+                        Integrated Google Safe Browsing & VirusTotal APIs. Added child-safe mode. 
+                        Deployed as Chrome extension.
+                    </p>
+                    <a href="#" class="btn-project" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Project Management</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Problem Solving</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Time Management</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Effective Communication</h3>
+                </div>
+            </div>
+            <div class="languages-section">
+                <h3>Languages</h3>
+                <div class="languages">
+                    <span class="language-tag">English</span>
+                    <span class="language-tag">Kannada</span>
+                </div>
+            </div>
+            <div class="activities-section">
+                <h3>Activities</h3>
+                <ul class="activities-list">
+                    <li>Attended industry meetups for skill enhancement and networking</li>
+                    <li>Built and deployed personal projects on GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <i class="fab fa-java"></i>
+                    <h3>JAVA MASTERCLASS</h3>
+                    <p class="certification-provider">Udemy</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript & PHP</h3>
+                    <p class="certification-provider">Udemy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">Let's connect and create something amazing together!</p>
+                <div class="social-links">
+                    <a href="https://github.com/Nammu-02" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/namrata-manjunath-naik-b95363281" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/nammu-naik" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:nnnaik22024116@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="nav-container">
+            <p>&copy; 2025 Namrata Manjunath Naik. All rights reserved.</p>
+            <br>
+            <p>Designed with <i class="fas fa-heart"></i> by Namrata Manjunath Naik</p>
+            <br>
+        </div>
+    </footer>   
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
