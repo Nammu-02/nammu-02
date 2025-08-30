@@ -327,8 +327,8 @@ document.addEventListener("DOMContentLoaded", () => {
  // Download Resume Function
   function downloadResume() {
       const link = document.createElement('a');
-      link.href = 'https://raw.githubusercontent.com/anurag-rvnkr1/anurag-rvnkr/main/assets/resume/Anurag-Rvnkr-Resume.pdf'; // Corrected RAW GitHub URL
-      link.download = 'Anurag-Rvnkr-Resume.pdf';
+      link.href = 'https://raw.githubusercontent.com/Nammu-02/nammu-02/main/Namrata-Naik-Resume.pdf'; // Corrected RAW GitHub URL
+      link.download = 'Namrata-Naik-Resume.pdf';
 
       document.body.appendChild(link);
       link.click();
